@@ -18,155 +18,153 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition Height="70"/>
-        </Grid.RowDefinitions>
+            </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <DockPanel
+        <Border
             Grid.RowSpan="2"
-            Grid.ColumnSpan="3">
-            <Border
-                Margin="5"
-                BorderThickness="1">
-                <Viewbox>
-                    <TextBlock
-                        TextAlignment="Center"
-                        Text="654114"
-                        VerticalAlignment="Center" />
-                </Viewbox>
-            </Border>
-        </DockPanel>
+            Grid.ColumnSpan="3"
+            Margin="5"
+            BorderThickness="1">
+            <Viewbox>
+                <TextBlock
+                    x:Name="VistaTexto"
+                    TextAlignment="Center"
+                    VerticalAlignment="Center" />
+            </Viewbox>
+        </Border>
 
-        <DockPanel
+        <Button
+            Click="Button_Click"
+            Tag="1"
             Grid.Row="2"
-            Grid.Column="0">
-            <Button
-                    Margin="5">
-                <Viewbox>
-                    <TextBlock 
+            Grid.Column="0"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
                     Text="1"
                     x:Name="TextNum1"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="2"
-        Grid.Column="1">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="2"
-                x:Name="TextNum2"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
-            
-        <DockPanel
-        Grid.Row="2"
-        Grid.Column="2">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="3"
-                x:Name="TextNum3"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="2"
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="2"
+                    x:Name="TextNum2"/>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="3"
-        Grid.Column="0">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="4"
-                x:Name="TextNum4"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="3"
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="3"
+                    x:Name="TextNum3"/>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="3"
-        Grid.Column="1">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="5"
-                x:Name="TextNum5"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="4"
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="4"
+                    x:Name="TextNum4"/>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="3"
-        Grid.Column="2">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="6"
-                x:Name="TextNum6"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="5"
+            Grid.Row="3"
+            Grid.Column="1"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="5"
+                    x:Name="TextNum5"/>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="4"
-        Grid.Column="0">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
+        <Button
+            Click="Button_Click"
+            Tag="6"
+            Grid.Row="3"
+            Grid.Column="2"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="6"
+                    x:Name="TextNum6"/>
+            </Viewbox>
+        </Button>
+
+        <Button
+            Click="Button_Click"
+            Tag="7"
+            Grid.Row="4"
+            Grid.Column="0"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
                     Text="7"
                     x:Name="TextNum7"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="4"
-        Grid.Column="1">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                        Text="8"
-                        x:Name="TextNum8"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="8"
+            Grid.Row="4"
+            Grid.Column="1"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="8"
+                    x:Name="TextNum8"/>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="4"
-        Grid.Column="2">
-            <Button
-                Margin="5">
-                <Viewbox>
+        <Button
+            Click="Button_Click"
+            Tag="9"
+            Grid.Row="4"
+            Grid.Column="2"
+            Margin="5">
+            <Viewbox>
                 <TextBlock 
                     Text="9"
                     x:Name="TextNum9"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+            </Viewbox>
+        </Button>
 
-        <DockPanel
-        Grid.Row="5"
-        Grid.ColumnSpan="3">
-            <Button
-                Margin="5">
-                <Viewbox>
-                    <TextBlock 
-                Text="0"
-                x:Name="TextNum0"/>
-                </Viewbox>
-            </Button>
-        </DockPanel>
+        <Button
+            Click="Button_Click"
+            Tag="0"
+            Grid.Row="5"
+            Grid.ColumnSpan="3"
+            Margin="5">
+            <Viewbox>
+                <TextBlock 
+                    Text="0"
+                    x:Name="TextNum0"/>
+            </Viewbox>
+        </Button>
     </Grid>
 </Window>
