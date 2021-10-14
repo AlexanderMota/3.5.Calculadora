@@ -1,0 +1,172 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="700" Width="450"
+        MinHeight="350" MinWidth="200">
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3">
+            <Border
+                Margin="5"
+                BorderThickness="1">
+                <Viewbox>
+                    <TextBlock
+                        TextAlignment="Center"
+                        Text="654114"
+                        VerticalAlignment="Center" />
+                </Viewbox>
+            </Border>
+        </DockPanel>
+
+        <DockPanel
+            Grid.Row="2"
+            Grid.Column="0">
+            <Button
+                    Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                    Text="1"
+                    x:Name="TextNum1"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="2"
+        Grid.Column="1">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="2"
+                x:Name="TextNum2"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+            
+        <DockPanel
+        Grid.Row="2"
+        Grid.Column="2">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="3"
+                x:Name="TextNum3"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="3"
+        Grid.Column="0">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="4"
+                x:Name="TextNum4"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="3"
+        Grid.Column="1">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="5"
+                x:Name="TextNum5"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="3"
+        Grid.Column="2">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="6"
+                x:Name="TextNum6"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="4"
+        Grid.Column="0">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                    Text="7"
+                    x:Name="TextNum7"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="4"
+        Grid.Column="1">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                        Text="8"
+                        x:Name="TextNum8"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="4"
+        Grid.Column="2">
+            <Button
+                Margin="5">
+                <Viewbox>
+                <TextBlock 
+                    Text="9"
+                    x:Name="TextNum9"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+
+        <DockPanel
+        Grid.Row="5"
+        Grid.ColumnSpan="3">
+            <Button
+                Margin="5">
+                <Viewbox>
+                    <TextBlock 
+                Text="0"
+                x:Name="TextNum0"/>
+                </Viewbox>
+            </Button>
+        </DockPanel>
+    </Grid>
+</Window>
